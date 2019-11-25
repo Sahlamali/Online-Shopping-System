@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>
+Online Shopping System
+</title>
+<!-- -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="HandheldFriendly" content="true" />
+<meta name="MobileOptimized" content="width" />
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+  <link rel="stylesheet" href="mystyle.css" media="screen" type="text/css">
+
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width initial-scale=1">
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <!--LOGIN PAGE:STYLE-->
+<style>
+    body {
+      background: #ffffff;;
+  }
+  .form_bg {
+      background-color:#352c31;
+      color:#666;
+      padding:14px;
+      border-radius:10px;
+      position: absolute;
+      border:1px solid #fff;
+      margin: auto;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      width: 350px;
+      height: 300px;
+  }
+  .align-center {
+      text-align:center;
+  }
+
+  #userid{
+    width: 96%;
+  }
+  #login{
+
+background-color:white;
+color:#352c31;
+  }
+</style>  
+<style>
+#links{
+float:right; 
+padding:15px; 
+
+color:#352c31;
+background-color:white;
+margin:5px;
+text-decoration:none;
+ }
+
+
+#links:hover{
+
+background-color:#352c31; 
+color:white;
+
+
+}
+
+
+</style>
+</head>
+<body style="font-family:Arial;margin:auto;">
+<br>
+<span class="h1" style="color:#352c31;"><b>Online Shopping System</b></span>
+<a href="home.html"><b id="links">HOME</b></a>
+<a href="login.html"><b id="links">BACK</b></a>
+<hr>
+<div class="container">
+    <div class="row">
+        <div class="form_bg">
+            <form action="login_buyer.jsp">
+                 <h2 class="text-center" style="color:white;">Login as Buyer</h2>
+
+                <br/>
+                <div class="form-group">
+                    <input type="email" class="form-control"  placeholder="User id" name="email">
+                </div>
+                <div class="form-group">
+                    <input type="password" class="form-control"  placeholder="Password" name="password">
+                </div>
+                <br/>
+                <div class="align-center">
+                    <button type="submit" class="btn btn-default" id="login"><b>Login</b></button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

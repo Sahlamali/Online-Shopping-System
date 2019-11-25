@@ -1,0 +1,270 @@
+
+/*Home page Styles*/
+
+.main_body{
+    background-image: url("source2.jpeg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.content_block{
+    display: inline-block;
+    position: fixed;
+    top: 25%;
+    left: 55%;
+}
+
+.main_head{
+    font-family: 'PT Serif', serif;
+    display: inline-block;
+    padding: 1%;
+    font-size: 65px;
+}
+
+.sub_head {
+    font-family: 'PT Serif', serif;
+    display: inline-block;
+    border: 1px solid rgb(248, 142, 142);
+    background-color: rgb(248, 142, 142);
+    border-radius: 20px;
+    padding: 1.5%;
+    margin-left: 4%;
+    color: black;
+    text-decoration: none;
+}
+
+/*Catalog Page Styles*/
+
+.body{
+    margin-left: 1%;
+}
+
+.catalog_head {
+    display: inline-block;
+    font-family: 'PT Serif', serif;
+    font-size: 35px;
+}
+
+.catalog__link{
+    display: inline-block;
+    text-decoration: none;
+    float:right;
+    margin-right: 3%;
+    margin-top: 2%;
+}
+
+.hr {
+    margin: 0px;
+    padding: 0px;
+}
+
+.catalog_content{
+    display: flex;
+}
+
+.catalog_image{
+    display: inline-block;
+}
+
+.catalog_div{
+    display: inline-block;
+    margin-left: 12%;
+}
+
+.Category_head {
+    font-size: 60px;
+    margin-top: 30%;
+}
+
+.catalog_list {
+    width: 50%;
+    margin-left: 20%;
+    height: 30px;
+}
+
+/*Purchase Page*/
+
+.imagebox{
+    margin-top: 1.5%;
+    display: inline-block;
+    margin-left: 0.5%;
+}
+
+.myForm{
+    display: inline-block;
+    margin-left: 5%;
+}
+
+.element{
+    display: inline-block;
+    width: 140%;
+    height: 25px;
+    margin: 2%;
+    padding: 3%;
+}
+
+.submit_btn{
+    margin-left: 2%;
+}
+
+/*Styling of combo box*/
+
+.card_para{
+    font-size: 80%;
+    display: inline-block;
+    margin-bottom: .5%;
+    color: #868683;
+}
+
+.card {
+    border: 1px solid #c9c7bf;
+    margin-left: 2%;
+    padding: 3%;
+}
+
+.card_in_sec1{
+    width: 80%;
+    height: 30px;
+    padding-left: 3%;
+}
+
+.card_type{
+    color: #868683;
+}
+
+.card_in_sec2{
+    display: inline-block;
+    width: 50%;
+    height: 20px;
+    padding-left: 3%;
+}
+
+.card_in_sec3{
+    display:inline-block;
+    width: 25%;
+    height: 20px;
+    padding-left: 3%;
+}
+
+.submit_btn {
+    display:inline-block;
+    margin-top: 2%;
+    width: 30%;
+    height: 30px;
+}
+
+/*Booklist Page*/
+
+.B_book1{
+    display: inline-block;
+    border: 1px solid black;
+    margin-right: 3%;
+
+}
+
+.b_btn{
+    height: 50px;
+    width: 100%;
+    margin-top: 3%;
+    font-size: 120%;
+    background-color: #c9c7bf;
+    
+}
+
+
+#login{
+
+text-align:center;
+}
+
+#admin{
+background-color:rgba(148, 49, 38 ,0.9);
+color:#FFFAFA;
+
+float:left;
+margin-left:10%;
+margin-top:10%;
+padding-right:50px;
+padding-left:50px;
+padding-top:50px;
+padding-bottom:50px;
+
+}
+
+
+
+#student{
+background-color:rgba(148, 49, 38 ,0.9);
+color:#FFFAFA;
+margin-right:20%;
+margin-top:10%;
+
+float:right;
+padding-right:50px;
+padding-left:50px;
+padding-top:50px;
+padding-bottom:50px;
+
+
+
+}
+#seller{
+background-color:rgba(148, 49, 38 ,0.9);
+color:#FFFAFA;
+margin-right:10%;
+margin-top:10%;
+
+float:right;
+padding-right:50px;
+padding-left:50px;
+padding-top:50px;
+padding-bottom:50px;
+
+
+
+}
+#sellersignup{
+background-color:rgba(148, 49, 38 ,0.9);
+color:#FFFAFA;
+margin-right:25%;
+margin-top:10%;
+
+float:right;
+padding-right:50px;
+padding-left:50px;
+padding-top:50px;
+padding-bottom:50px;
+
+
+
+}
+
+#studentsignup{
+background-color:rgba(148, 49, 38 ,0.9);
+color:#FFFAFA;
+
+float:left;
+margin-left:25%;
+margin-top:10%;
+padding-right:50px;
+padding-left:50px;
+padding-top:50px;
+padding-bottom:50px;
+
+}
+ #heading{
+
+color:white;
+font-weight:bold;
+text-decoration:none;
+font-size:15px;
+}
+
+
+a #heading:hover,#seller:hover,#admin:hover,#student:hover,#studentsignup:hover,#sellersignup:hover{
+
+background-color:rgba(148, 49, 38 ,1);
+color:black;
+text-decoration:none;
+
+}
